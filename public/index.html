@@ -1,35 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="Content-Security-Policy" content="script-src 'self';" />
 
-<head>
-    <style>
-        canvas {
-            image-rendering: pixelated;
-            width: 100vw;
-            height: 100vh;
-        }
-
-        body {
-            margin: auto;
-            overflow: hidden;
-        }
-
-        @font-face {
-            font-family: "pixel";
-            src: url("./../src/src/www/fonts/kongtext.ttf")
-        }
-
-        @font-face {
-            font-family: "pixel2";
-            src: url("./../src/src/www/fonts/pixeldigivolve.ttf")
-        }
-    </style>
-</head>
-
-<body scroll="no" style="width: 100%; height: 100%;">
-    <canvas width="1800" height="1000" style="margin: auto;" id="canvas1" oncontextmenu="return false"
-        scroll="no"></canvas>
-    <script src="./../src/src/index.ts" ></script>
-</body>
-
+        <title>📦🚀 React Electron Parcel Boilerplate</title>
+    </head>
+    <body>
+        <div id="app"></div>
+        <script src="../src/index.js"></script>
+    </body>
 </html>

@@ -11,7 +11,7 @@ async function build(options) {
             appDirectory: './dist/app-win32-ia32',
             outputDirectory: './dist/installer',
             authors: 'Weekly Webtips',
-            description: '📦 Electron app, built with Parcel',
+            description: '📦🚀 Electron app using React, built with Parcel',
             exe: 'app.exe'
         });
 
